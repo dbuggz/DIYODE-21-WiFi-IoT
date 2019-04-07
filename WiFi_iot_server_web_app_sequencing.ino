@@ -9,17 +9,17 @@
  * 
  * USE: 
  *     run with Serial Monitor and note the address,
- *     open the WWW app _web_package/index.html  and enter the adddress in 'settings'
+ *     open the WWW app_web_package/index.html  and enter the adddress in 'settings'
  *     Choose an action (e.g RED ON) and press submit
- * your LED shoulw=d fade up or down
+ * your LED should fade up or down
  * 
  * Motivation: I wanted a WiFi Connection instead of Wired Ethernet
  */
 
 #include <ESP8266WiFi.h>
 
-const char* ssid = "paddys_tavern";
-const char* password = "getyourowndrink";
+const char* ssid = "SOMETHING";
+const char* password = "SOMEPASSWORD";
 
 // Create an instance of the server
 // specify the port to listen on as an argument
